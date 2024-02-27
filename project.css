@@ -1,0 +1,261 @@
+
+#page2 {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background-image: url(1478.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center; 
+}
+
+#page3 {
+
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background-image: url(1478.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center; 
+
+}
+
+
+
+
+.container {
+    margin-top: 8%;
+}
+
+.col-sm h1 {
+    font-size: 600%;
+    color: rgb(52, 97, 81);
+    
+}
+
+.col-sm h2 {
+    font-size: 170%;
+    color: rgb(52, 97, 81);
+    font-family: 'mapolice';
+}
+
+.col-sm .btn-primary {
+    background-color: #4f0775;
+    width: 9%;
+}
+
+.card-body {
+    width: 80%;
+    padding: 3%;
+    margin: 0 auto;
+    border-radius: 10%;
+    border-color: rgb(52, 97, 81);
+}
+
+.card-body p {
+    text-align: left;
+    text-align: justify;
+    color: rgb(52, 97, 81);
+}
+
+img {
+    width: 100%;
+    max-width: 93%;
+}
+
+
+
+footer {
+    background-color: rgb(236, 234, 234);
+    width: 100%;
+    padding: 30px 0;
+    text-align: center;
+    color: rgb(52, 97, 81);
+}
+
+
+
+
+
+.navbar {
+    background-color: white; 
+    overflow: hidden;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    display: flex;  
+    justify-content: flex-end;  
+}
+
+.navbar a {
+    display: inline-block;
+    color: rgb(52, 97, 81); 
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+    background-color:  #4f0775; 
+    color: white;
+}
+
+.navbar a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .navbar {
+        display: block;  
+        text-align: right; 
+    }
+
+    .navbar a {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+}
+
+
+
+@font-face {
+    font-family: 'mapolice' ;
+    src: url(OFL.txt);
+    src: url(RubikMicrobe-Regular.ttf);
+}
+
+
+
+
+h1 { 
+    font-size: 300%;
+    color : rgb(52, 97, 81);
+    margin : auto;
+    margin-top: 2%;
+    font-weight: bold;
+}
+
+.carousel-container {
+    width: 80%;
+    margin-left: 18%;
+    overflow: hidden;
+    align-items: center;
+    
+   
+  }
+  .carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+   
+  }
+  .card-container {
+    width: 300px;
+    margin: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    background-color: #f8f1f1c4;
+   
+  }
+  .card-container img {
+    width: 100%;
+    border-radius: 5px;
+    
+  }
+  .card-title {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: rgb(52, 97, 81) ;
+  }
+  .card-button {
+    padding: 5px 10px;
+    background-color:  #4f0775;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+
+  }
+
+
+
+  #ecopage {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image:url(1478.jpg);
+    
+  }
+  
+  .project-header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .project-container, .project-container p {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+  }
+  
+  .project-container article {
+    margin-bottom: 2rem;
+  }
+  
+  .project-container h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .project-container p {
+    margin-bottom: 1rem;
+  }
+  
+  .project-container img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  
+  .project-container h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .project-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .project-container ul li {
+    margin-bottom: 0.5rem;
+  }
+  
+
+
+.eco-but { 
+  
+
+    
+    background-color: #4f0775;
+    color: aliceblue;
+
+}

@@ -1,0 +1,221 @@
+
+#page4 {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin: 0;
+    background-image: url(1478.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center; 
+}
+
+
+#page1 {
+
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin: 0;
+    background-image: url(1478.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center; 
+}
+
+
+
+
+h1 {
+
+    font-size: 300%;
+    color : rgb(52, 97, 81);
+}
+
+h2 { 
+    
+  font-size: 100%;
+  font-weight: normal;
+  color: rgb(52, 97, 81);
+}
+
+
+
+
+.center-section {
+    flex-grow: 1;
+    text-align: center;
+    max-width: 600px; 
+    margin-top: 50px; 
+}
+
+
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px; 
+}
+
+.contact-form label {
+    margin-bottom: 5px;
+    color: rgb(62, 61, 61);
+}
+
+.contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    background-color: rgb(240, 237, 237);
+}
+
+#nom , #email {  width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box; }
+    
+input { background-color: rgb(240, 237, 237) ;}
+
+
+
+.submit-btn {
+    width: 20% ;
+    background-color: #4f0775;
+    color: aliceblue;
+    margin-left: 80%;
+}
+
+footer {
+    background-color: rgb(236, 234, 234);
+    width: 100%;
+    padding: 30px 0;
+    margin-top: 20px; 
+    text-align: center;
+    color: #4f0775;
+}
+
+#accueil footer {
+
+    background-color: rgb(236, 234, 234);
+    width: 100%;
+    padding: 30px 0;
+    margin-top: 20px; 
+    text-align: center;
+
+}
+
+fieldset {
+
+   background-color: white;
+}
+
+.navbar {
+    background-color: white; 
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    display: flex;  
+    justify-content: flex-end;  
+}
+
+.navbar a {
+    display: inline-block;
+    color: rgb(52, 97, 81); 
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+   
+}
+
+.navbar a:hover {
+    background-color: #4f0775; 
+    color: white;
+}
+
+.navbar a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar {
+        display: block;  
+        text-align: right; 
+    }
+
+    .navbar a {
+        display: block;
+        width: 300%;
+        text-align: left;
+    }
+}
+.name {
+    display: block;
+    width: 100%;
+    text-align: left;
+    margin: 20px;
+    color: rgb(52, 97, 81);
+}
+
+
+
+
+
+.main-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.flex-item h1 {
+    font-size: 5em; 
+    color: rgb(52, 97, 81);
+}
+
+.flex-item h2 { 
+
+    font-size: 200%;
+    white-space: pre-line;
+    font-family: 'mapolice';
+    color: rgb(52, 97, 81);
+  
+    
+}
+
+
+.flex-container {
+    text-align: center;
+}
+
+.button-link button {
+    background-color: #4f0775;
+    color: rgb(245, 241, 241); 
+    padding: 13px 20px; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; 
+}
+
+.button-link {
+    text-decoration: none;
+}
+
+    
+@font-face {
+    font-family: 'mapolice' ;
+    src: url(OFL.txt);
+    src: url(RubikMicrobe-Regular.ttf);
+}
